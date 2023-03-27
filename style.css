@@ -1,0 +1,11 @@
+/*   HEADER   */
+/*   Navbar   */
+
+.edf-navbar .nav-link:hover
+{
+border-bottom: 3px solid;
+border-color: white;
+color: white;
+font-weight: 500;
+}
+
