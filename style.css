@@ -13,3 +13,46 @@ font-weight: 500;
 .color_bg1{
     background-color: #F2994A;
 }
+
+
+/*   CONTENT   */
+/*   Title color   */
+h3{
+    color: #F2994A;
+}
+
+.programme > strong{
+    color: #F2994A;
+}
+
+
+/*   Title underline   */
+
+p.h1 > strong, p.h2 > strong, p.h5 > strong {
+    background-image: linear-gradient(transparent 70%,#F2994A 0);
+}
+
+p.underline2 > strong {
+    background-image: linear-gradient(transparent 70%,#F2F2F2 0);
+    color: #F2994A;
+}
+
+
+
+/*   Card background and position   */
+.bg-img{
+    background-image: linear-gradient(90deg,#f58d0d 0,#ffac68);
+    background-repeat: repeat-x;
+    height: 350px;
+    width: 500px;
+    position: absolute;
+    z-index:-1;
+}
+
+
+.img-right{  
+    z-index:-1;
+    position:absolute;  
+}
+
+
