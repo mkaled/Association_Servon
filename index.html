@@ -23,24 +23,44 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
-        
-      </nav>
-    </header>
+      <!-- Nav -->
+     <nav class="edf-navbar navbar fixed-top navbar-expand-sm color_bg1 g-0">
+       <div class="container-fluid">
+         <a class="navbar-brand " href="index.html">
+           <img src="./asset/icon/logo_asm.svg" alt="logo_ASM" width="50" height="50">
+         </a>
+
+         <button 
+           class="navbar-toggler" 
+           type="button" 
+           data-bs-toggle="collapse" 
+           data-bs-target="#navbarSupportedContent" 
+           aria-controls="navbarSupportedContent" 
+           aria-expanded="false" 
+           aria-label="Toggle navigation"
+         >
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         
+         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">         
+           <ul class="navbar-nav  align-items-center mb-lg-0">
+             <li class="nav-item px-4">
+               <a class="nav-link active text-white fs-5 fw-bold" aria-current="page" href="index.html">Accueil</a>
+             </li>
+             <li class="nav-item px-4">
+               <a class="nav-link text-white fs-5" aria-current="page" href="academy.html">Ecole de foot</a>
+             </li>
+             <li class="nav-item px-4">
+               <a class="nav-link  text-white fs-5" aria-current="page" href="stage.html">Stages</a>
+             </li>
+             <li class="nav-item px-4">
+               <a class="nav-link  text-white fs-5" aria-current="contact" href="contact.html">Contactez-nous</a>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+   </header>
 
     <content>
       <div class="container">
