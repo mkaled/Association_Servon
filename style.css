@@ -59,7 +59,6 @@ p.underline2 > strong {
 
 /*  FOOTER   */    
 
-
 /*   Title underline   */
 .text-underline-hover:hover{
     text-underline-offset: 5px;
@@ -74,4 +73,11 @@ p.underline2 > strong {
     .mention{
         font-size: 12px;
     }
+
+    @media (max-width: 576px) {
+        .unstyled {
+          list-style: none;
+          padding-left: 0px;;
+        }
+      }
     
