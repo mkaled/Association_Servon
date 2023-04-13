@@ -80,4 +80,13 @@ p.underline2 > strong {
           padding-left: 0px;;
         }
       }
-    
+
+    @media (max-width: 992px) {
+        #carousel {
+          padding-top: 65px;
+        }
+      }
+      
+ 
+      
+      
