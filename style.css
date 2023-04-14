@@ -86,7 +86,15 @@ p.underline2 > strong {
           padding-top: 65px;
         }
       }
+
+      @media (min-width: 768px) {
+        .img-rounded {
+          border-radius: 0.75rem;
+        }
+      }
       
- 
+      
+   
+      
       
       
